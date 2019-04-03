@@ -1,0 +1,3 @@
+services: docker
+install: docker build -t <name> .
+script: docker run <name>:latest /bin/bash -c "<script>"
