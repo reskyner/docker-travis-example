@@ -1,3 +1,2 @@
-services: docker
-install: docker build -t immunocore .
-script: docker run immunocore:latest /bin/bash -c "/immunocore/run_tests.sh"
+language: python
+script: ./run_tests.sh
